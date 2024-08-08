@@ -1,0 +1,46 @@
+/* catalogo.css */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+    background-color: #f8f9fa; /* Fondo opcional para contraste */
+  }
+  
+  main img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+/*COLOR DE BOTONES*/
+.btn-primary {
+    background-color: #4d1a14;
+    border-color: #4d1a14;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4d1a14; 
+    border-color: #4d1a14;
+  }
+  
+  .btn-dark {
+    background-color: #4d1a14; 
+    border-color: #4d1a14;
+  }
+  
+  .btn-dark:hover {
+    background-color: #e21c06;
+    border-color: #e21c06;
+  }
+  
+  
+  .btn-primary, .btn-dark {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover, .btn-dark:hover {
+    background-color: #a02b1f;
+    border-color: #a02b1f;
+    transform: scale(1.05);
+  }
